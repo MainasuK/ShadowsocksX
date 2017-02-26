@@ -1,17 +1,43 @@
 PODS:
-  - libsodium (1.0.3)
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - GCDWebServer (3.3.3):
+    - GCDWebServer/Core (= 3.3.3)
+  - GCDWebServer/Core (3.3.3)
+  - GZIP (1.1.1)
+  - libsodium (1.0.11)
+  - OpenSSL-OSX (1.0.211)
   - ZXingObjC (3.1.0):
     - ZXingObjC/All (= 3.1.0)
   - ZXingObjC/All (3.1.0)
 
 DEPENDENCIES:
+  - AFNetworking
+  - GCDWebServer
+  - GZIP
   - libsodium
+  - OpenSSL-OSX (~> 1.0.211)
   - ZXingObjC (~> 3.1.0)
 
 SPEC CHECKSUMS:
-  libsodium: be547e31dc75725629acc5717dc0a40fc05ef243
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  GCDWebServer: 1c39a1f0763e4eb492bee021e4270fce097d3555
+  GZIP: f8beb59597f651e6970a45b816508a9c6d700b77
+  libsodium: 9aba161d2ee096977ecbdcce1ada69ffe511970c
+  OpenSSL-OSX: d9226a9b1c4257f41b819da9173a150c6a6fbfd5
   ZXingObjC: bf15b3814f7a105b6d99f47da2333c93a063650a
 
-PODFILE CHECKSUM: 8bb8520ee3c45cc913c12a706643e44707ed659f
+PODFILE CHECKSUM: cbfa3da9ba551b427130e1583bbedfeb010662e2
 
-COCOAPODS: 1.0.0
+COCOAPODS: 1.1.1
